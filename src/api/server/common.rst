@@ -763,6 +763,10 @@ error.
 ``/_stats``
 ===========
 
+.. note::
+    CouchDB 2.0 removed the _stats endpoint. For more information see 
+    https://issues.apache.org/jira/browse/COUCHDB-2429.
+
 .. http:get:: /_stats
     :synopsis: Returns server statistics
 
